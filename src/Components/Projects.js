@@ -16,11 +16,11 @@ const Projects = () => {
                         <div className="actions">
                             <span>
                                 <i class="fa-solid fa-link"></i>
-                                <a href="#">Live Preview</a>
+                                <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
                                 <i class="fa-brands fa-github"></i>
-                                <a href="#">View Code</a>
+                                <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
                     </div>
@@ -35,11 +35,11 @@ const Projects = () => {
                         <div className="actions">
                             <span>
                                 <i class="fa-solid fa-link"></i>
-                                <a href="#">Live Preview</a>
+                                <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
                                 <i class="fa-brands fa-github"></i>
-                                <a href="#">View Code</a>
+                                <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
                     </div>
@@ -55,11 +55,11 @@ const Projects = () => {
                         <div className="actions">
                             <span>
                                 <i class="fa-solid fa-link"></i>
-                                <a href="#">Live Preview</a>
+                                <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
                                 <i class="fa-brands fa-github"></i>
-                                <a href="#">View Code</a>
+                                <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
                     </div>
@@ -75,11 +75,11 @@ const Projects = () => {
                         <div className="actions">
                             <span>
                                 <i class="fa-solid fa-link"></i>
-                                <a href="#">Live Preview</a>
+                                <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
                                 <i class="fa-brands fa-github"></i>
-                                <a href="#">View Code</a>
+                                <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
                     </div>
@@ -95,11 +95,11 @@ const Projects = () => {
                     <div className="actions">
                         <span>
                             <i class="fa-solid fa-link"></i>
-                            <a href="#">Live Preview</a>
+                            <a href="#" target="_blank">Live Preview</a>
                         </span>  
                         <span>
                             <i class="fa-brands fa-github"></i>
-                            <a href="#">View Code</a>
+                            <a href="#" target="_blank">View Code</a>
                         </span> 
                     </div>
                 </div>
@@ -114,11 +114,11 @@ const Projects = () => {
                 <div className="actions">
                     <span>
                         <i class="fa-solid fa-link"></i>
-                        <a href="#">Live Preview</a>
+                        <a href="#" target="_blank">Live Preview</a>
                     </span>  
                     <span>
                         <i class="fa-brands fa-github"></i>
-                        <a href="#">View Code</a>
+                        <a href="#" target="_blank">View Code</a>
                     </span> 
                 </div>
             </div>

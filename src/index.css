@@ -332,7 +332,59 @@ nav ul li a:hover::after {
   font-size: 13px;
 }
 
+/* Contact */ 
+#contact {
+  max-width: 72rem;
+  padding: 0.5rem 2rem 10px 0.5rem;
+  margin: 10px auto;
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  color: #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+#contact h1 {
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#contact article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.contact-info p {
+  margin-right: 5px;
+}
+
+#credit {
+  max-width: 72rem;
+  padding: 0.5rem 2rem 10px 0.5rem;
+  margin: 10px auto;
+  color: #D9D9D9;
+}
+
+#credit a {
+  color: #00C0FD;
+}
+
+
 @media screen and (max-width: 700px) {
+
+  header {
+    position: fixed;
+    top: -15px;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.8);
+    z-index: 1;
+  }
 
   nav ul {
     display: flex;
@@ -393,6 +445,10 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
   }
 
+  .projects-container {
+    justify-content: space-between;
+  }
+
 
 }
 
@@ -401,4 +457,21 @@ nav ul li a:hover::after {
   .icons-container {
     grid-template-columns: repeat(3,1fr);
   }
+
+ #contact {
+  align-items: center;
+  justify-content: center;
+ }
+
+  #contact h1 {
+  display: none;
+ }
+
+  #contact article {
+  flex-direction: column;
+ }
+
+ .contact-info {
+  flex-direction: column;
+ }
 }
