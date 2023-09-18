@@ -9,7 +9,7 @@ import VSCODE from "../images/VsCode.png"
 
 const TechStack = () => {
     return (
-        <section id="techstack">
+        <section id="techstack"data-aos="zoom-in" data-aos-duration="2000" >
             <h1>My Tech Stack</h1>
             <p>Technologies I've been working with recently</p>
             <div className="icons-container">

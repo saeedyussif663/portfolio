@@ -6,20 +6,20 @@ const Projects = () => {
         <section id="projects">
             <h1>Projects</h1>
             <p>Things I've built so far</p>
-            <div className="projects-container">
+            <div className="projects-container" >
                 {/* project  1 */}
-                <div className="project-card">
+                <div className="project-card" data-aos="fade-down-right" data-aos-duration="1000">
                     <img src={movies} alt="movies" />
                     <div className="project-details">
                         <h4>project title</h4>
                         <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         <div className="actions">
                             <span>
-                                <i class="fa-solid fa-link"></i>
+                                <i className="fa-solid fa-link"></i>
                                 <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
-                                <i class="fa-brands fa-github"></i>
+                                <i className="fa-brands fa-github"></i>
                                 <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
@@ -27,18 +27,18 @@ const Projects = () => {
                 </div>
                 
                 {/* Project 2 */}
-                <div className="project-card">
+                <div className="project-card" data-aos="fade-down" data-aos-duration="1000" >
                     <img src={movies} alt="movies" />
                     <div className="project-details">
                         <h4>project title</h4>
                         <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         <div className="actions">
                             <span>
-                                <i class="fa-solid fa-link"></i>
+                                <i className="fa-solid fa-link"></i>
                                 <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
-                                <i class="fa-brands fa-github"></i>
+                                <i className="fa-brands fa-github"></i>
                                 <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
@@ -47,18 +47,18 @@ const Projects = () => {
 
                 {/* project 3 */}
 
-                <div className="project-card">
+                <div className="project-card"data-aos="fade-down-left" data-aos-duration="1000" >
                     <img src={movies} alt="movies" />
                     <div className="project-details">
                         <h4>project title</h4>
                         <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         <div className="actions">
                             <span>
-                                <i class="fa-solid fa-link"></i>
+                                <i className="fa-solid fa-link"></i>
                                 <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
-                                <i class="fa-brands fa-github"></i>
+                                <i className="fa-brands fa-github"></i>
                                 <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
@@ -67,18 +67,18 @@ const Projects = () => {
 
                 {/* Project 4 */}
 
-                <div className="project-card">
+                <div className="project-card" data-aos="fade-up-right" data-aos-duration="1000" >
                     <img src={movies} alt="movies" />
                     <div className="project-details">
                         <h4>project title</h4>
                         <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         <div className="actions">
                             <span>
-                                <i class="fa-solid fa-link"></i>
+                                <i className="fa-solid fa-link"></i>
                                 <a href="#" target="_blank">Live Preview</a>
                             </span>  
                                <span>
-                                <i class="fa-brands fa-github"></i>
+                                <i className="fa-brands fa-github"></i>
                                 <a href="#" target="_blank">View Code</a>
                             </span> 
                         </div>
@@ -87,18 +87,18 @@ const Projects = () => {
 
             {/* Project 5 */}
 
-            <div className="project-card">
+            <div className="project-card"data-aos="fade-up" data-aos-duration="1000" >
                 <img src={movies} alt="movies" />
                 <div className="project-details">
                     <h4>project title</h4>
                     <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     <div className="actions">
                         <span>
-                            <i class="fa-solid fa-link"></i>
+                            <i className="fa-solid fa-link"></i>
                             <a href="#" target="_blank">Live Preview</a>
                         </span>  
                         <span>
-                            <i class="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github"></i>
                             <a href="#" target="_blank">View Code</a>
                         </span> 
                     </div>
@@ -106,18 +106,18 @@ const Projects = () => {
             </div>
                 
             {/* Project 6  */}
-        <div className="project-card">
+        <div className="project-card"data-aos="fade-up-left" data-aos-duration="1000" >
             <img src={movies} alt="movies" />
             <div className="project-details">
                 <h4>project title</h4>
                 <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 <div className="actions">
                     <span>
-                        <i class="fa-solid fa-link"></i>
+                        <i className="fa-solid fa-link"></i>
                         <a href="#" target="_blank">Live Preview</a>
                     </span>  
                     <span>
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                         <a href="#" target="_blank">View Code</a>
                     </span> 
                 </div>
