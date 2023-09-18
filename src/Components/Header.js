@@ -7,20 +7,19 @@ const Header = () => {
         setIsNavOpen(prev => !prev)
     }
 
-    const mobileWidth = isNavOpen ? "navlinks" : "hide-links"
-
-
+    const mobileWidth = isNavOpen ? "navlinks" : "hide-links";
+    const icon = isNavOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
 
     return (
-        <header>
+        <header >
             <h1 className="logo">Saeed</h1>
             <nav>
-                <ul className={mobileWidth}>
-                    <li><a href="#">Home</a></li>
+                <ul className={mobileWidth} onClick={openNavBar}>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#">Tech Stack</a></li> 
-                    <li><a href="#">Projects</a></li> 
-                    <li><a href="#">Contacts</a></li> 
+                    <li><a href="#techstack">Tech Stack</a></li> 
+                    <li><a href="#projects">Projects</a></li> 
+                    <li><a href="#contacts">Contacts</a></li> 
                     <div className="socials">
                         <i className="fa-brands fa-github"></i>
                         <i className="fa-brands fa-linkedin"></i>
@@ -28,7 +27,7 @@ const Header = () => {
                     </div>
                 </ul>   
             </nav>
-            <i className="fa-solid fa-bars" onClick={openNavBar}></i>
+            <i className={icon} onClick={openNavBar}></i>
         </header>
     )
 }

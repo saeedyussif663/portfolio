@@ -4,7 +4,7 @@ import photo from "../images/image.jpg"
 
 const Home = () => {
     return (
-        <section className="home-container">
+        <section className="home-container" id="home">
             <Header />
             <main>
                 <div className="name-section">
