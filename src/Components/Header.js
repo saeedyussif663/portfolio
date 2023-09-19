@@ -21,9 +21,15 @@ const Header = () => {
                     <li><a href="#projects">Projects</a></li> 
                     <li><a href="#contact">Contacts</a></li> 
                     <div className="socials">
-                        <i className="fa-brands fa-github"></i>
-                        <i className="fa-brands fa-linkedin"></i>
-                        <i className="fa-brands fa-twitter"></i>
+                        <a href="https://github.com/saeedyussif663" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-github"></i>
+                        </a>
+                        <a href="http://linkedin.com/in/saeed-yussif-369b111a6" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="http://twitter.com/iamsaeedyussif" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-twitter"></i>
+                        </a>
                     </div>
                 </ul>   
             </nav>
