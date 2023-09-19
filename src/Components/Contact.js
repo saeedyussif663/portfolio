@@ -1,7 +1,12 @@
+import { useGlobalContext } from "../Context"
+
 
 const Contact = () => {
+    const {closeNavBar} = useGlobalContext()
+
+
     return (
-        <section id="contact">
+        <section id="contact" onClick={closeNavBar}>
             <h1>Saeed</h1>
             <div className="contact-info">
                 <article>

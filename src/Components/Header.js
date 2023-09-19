@@ -1,14 +1,11 @@
-import { useState } from "react"
+import { useGlobalContext } from "../Context";
 
 const Header = () => {
-    const [isNavOpen, setIsNavOpen] = useState(false)
+    const { state, openNavBar} = useGlobalContext();
 
-    const openNavBar = () => {
-        setIsNavOpen(prev => !prev)
-    }
 
-    const mobileWidth = isNavOpen ? "navlinks" : "hide-links";
-    const icon = isNavOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+    const mobileWidth = state.isModalopen ? "navlinks" : "hide-links";
+    const icon = state.isModalopen  ? "fa-solid fa-xmark" : "fa-solid fa-bars";
 
     return (
         <header >

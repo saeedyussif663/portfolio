@@ -1,3 +1,5 @@
+import { useGlobalContext } from "../Context";
+
 import movies from "../images/movies.png";
 import blogs from "../images/blogs.png";
 import ecommerce from "../images/ecommerce.png";
@@ -8,8 +10,10 @@ import portfolio from "../images/portfolio.png";
 
 
 const Projects = () => {
+    const { closeNavBar } = useGlobalContext();
+
     return (
-        <section id="projects">
+        <section id="projects" onClick={closeNavBar}>
             <h1>Projects</h1>
             <p>Things I've built so far</p>
             <div className="projects-container" >

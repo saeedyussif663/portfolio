@@ -1,8 +1,10 @@
-
+import { useGlobalContext } from "../Context"
 
 const About = () => {
+    const { closeNavBar } = useGlobalContext();
+
     return (
-        <section id="about"data-aos="fade-down" data-aos-duration="2000" >
+        <section id="about"data-aos="fade-down" data-aos-duration="2000" onClick={closeNavBar} >
             <div className="about-me">
                 <h1>About Me</h1>
                 <p> 👋 Hello! I'm Saeed, a self-taught front-end developer with a passion for crafting user-friendly web experiences. 💻 I thrive on turning ideas into clean, elegant code, and I'm constantly learning and evolving to stay at the forefront of web development.🌟 My goal is to create visually stunning and intuitive websites that not only meet but exceed user expectations. <br/>Let's turn your digital dreams into reality together! 🚀

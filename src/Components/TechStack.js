@@ -1,3 +1,5 @@
+import { useGlobalContext } from "../Context";
+
 import HTML from "../images/Html.png";
 import CSS from "../images/Css.png";
 import JS from "../images/Js.png";
@@ -8,8 +10,10 @@ import GITHUB from "../images/Github.png";
 import VSCODE from "../images/VsCode.png"
 
 const TechStack = () => {
+    const { closeNavBar } = useGlobalContext();
+
     return (
-        <section id="techstack"data-aos="zoom-in" data-aos-duration="2000" >
+        <section id="techstack"data-aos="zoom-in" data-aos-duration="2000" onClick={closeNavBar}>
             <h1>My Tech Stack</h1>
             <p>Technologies I've been working with recently</p>
             <div className="icons-container">
